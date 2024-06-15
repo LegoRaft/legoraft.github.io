@@ -20,10 +20,8 @@ jobs:
           tag=$(curl 'https://api.github.com/repos/legoraft/stagnant/releases/latest' | jq -r '.tag_name')
           echo ${tag}
           url="https://github.com/legoraft/stagnant/releases/download/${tag}/stagnant"
-          mkdir blog
           curl -L $url > stagnant
           chmod +x stagnant
-          cd blog
           echo `pwd`/blog >> $GITHUB_PATH
       - name: Build blog
         run: |
