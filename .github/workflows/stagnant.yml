@@ -26,7 +26,8 @@ jobs:
       - name: Build blog
         run: |
           # This assumes that the blog is at the root of the directory
-          ./stagnant
+          # ls
+          stagnant
       - name: Setup pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
