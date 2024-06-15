@@ -22,6 +22,7 @@ jobs:
           url="https://github.com/legoraft/stagnant/releases/download/${tag}/stagnant"
           mkdir blog
           curl -L $url > stagnant
+          chmod +x stagnant
           cd blog
           echo `pwd`/blog >> $GITHUB_PATH
       - name: Build blog
