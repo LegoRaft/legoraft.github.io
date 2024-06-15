@@ -18,16 +18,15 @@ jobs:
       - name: Install latest stagnant release
         run: |
           tag=$(curl 'https://api.github.com/repos/legoraft/stagnant/releases/latest' | jq -r '.tag_name')
-          url="https://github.com/legoraft/stagnant/releases/download/${tag}/stagnant"
+          url="https://github.com/legoraft/stagnant/releases/download/${tag}/stagnant > stagnant"
           mkdir blog
-          curl -sSL $url
+          curl -L $url
           cd blog
           echo `pwd`/blog >> $GITHUB_PATH
       - name: Build blog
         run: |
           # This assumes that the blog is at the root of the directory
-          ls
-          stagnant
+          ./stagnant
       - name: Setup pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
