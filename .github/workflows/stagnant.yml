@@ -17,7 +17,7 @@ jobs:
           fetch-depth: 0
       - name: Install latest stagnant release
         run: |
-          tag=$(curl 'https://api.github.com/repos/legoraft/stagnant/releases/latest' | jq -r '.tag_name')
+          tag=$(curl 'https://api.github.com/legoraft/stagnant/releases/latest' | jq -r '.tag_name')
           url="https://github.com/legoraft/stagnant/releases/download/${tag}/stagnant"
           mkdir blog
           curl -sSL $url
