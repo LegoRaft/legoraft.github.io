@@ -1,3 +1,30 @@
+.project-container {
+    width: 52rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
 .project {
-    
+    width: 16.5rem;
+    flex: 1 16rem auto;
+    color: #F1F2EB;
+    text-decoration: none;
+    background-color: rgba(241, 242, 235, 0.05);
+    border-radius: 16px;
+}
+
+.project .description {
+    padding: 0.5rem 1rem 1rem 1rem;
+}
+
+.description p {
+    color: rgba(241, 242, 235, 0.75);
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
 }
