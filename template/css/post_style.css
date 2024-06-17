@@ -4,5 +4,6 @@ body {
 }
 
 article {
-    max-width: 80ch;
+    width: 80ch;
+    justify-content: left;
 }
