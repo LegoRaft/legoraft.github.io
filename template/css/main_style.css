@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -15,6 +20,7 @@ header, footer {
     align-items: center;
     font-size: 14px;
     width: 48rem;
+    margin: 2rem 0;
 }
 
 nav ul {
@@ -35,4 +41,30 @@ nav a:hover, footer a:hover {
 footer a {
     color: #2CB06E;
     text-decoration: none;
+}
+
+section {
+    width: 40rem;
+}
+
+.post-link {
+    color: inherit;
+    text-decoration: none;
+    
+}
+
+.link-header {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 0.5rem;
+}
+
+#tag {
+    color: #2CB06E;
+}
+
+#date {
+    align-self: flex-end;
+    margin: 2px 0.5rem;
+    color: #91918E;
 }
