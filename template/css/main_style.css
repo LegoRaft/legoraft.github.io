@@ -19,7 +19,7 @@ header, footer {
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
-    width: 48rem;
+    width: 60rem;
     margin: 2rem 0;
 }
 
@@ -44,7 +44,7 @@ footer a {
 }
 
 section {
-    width: 40rem;
+    width: 52rem;
 }
 
 .post-link {
