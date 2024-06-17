@@ -23,11 +23,16 @@ nav ul {
     list-style: none;
 }
 
-nav a, footer a {
+nav a {
     text-decoration: none;
     color: inherit;
 }
 
 nav a:hover, footer a:hover {
     text-decoration: underline;
+}
+
+footer a {
+    color: #2CB06E;
+    text-decoration: none;
 }
