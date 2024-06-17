@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #303030;
+    color: #F1F2EB;
+    font-family: Manrope, Helvetica, sans-serif;
 }
 
 header, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 14px;
     width: 48rem;
 }
 
@@ -17,11 +23,11 @@ nav ul {
     list-style: none;
 }
 
-nav a {
+nav a, footer a {
     text-decoration: none;
-    color: black;
+    color: inherit;
 }
 
-nav a:hover {
+nav a:hover, footer a:hover {
     text-decoration: underline;
 }
