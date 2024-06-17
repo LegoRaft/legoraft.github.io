@@ -23,6 +23,11 @@ header, footer {
     margin: 2rem 0;
 }
 
+h1 a {
+    color: inherit;
+    text-decoration: none;
+}
+
 nav ul {
     display: flex;
     gap: 8px;
