@@ -8,6 +8,7 @@ body {
 article {
     width: 80ch;
     justify-content: left;
+    font-size: 18px;
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
@@ -29,6 +30,13 @@ article h {
 }
 
 code {
+    background-color: #222;
+    padding: 0.1rem 0.25rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+
+pre code {
     border-radius: 1rem;
     font-family: "Source Code Pro", Courier, monospace;
 }
