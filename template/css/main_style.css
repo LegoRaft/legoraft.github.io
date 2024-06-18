@@ -73,3 +73,13 @@ footer a {
     margin: 2px 0.5rem;
     color: #91918E;
 }
+
+@media (max-width: 660px) {
+    body {
+        margin: 0 1rem;
+    }
+    
+    .homepage, .post {
+        width: 100%;
+    }
+}
