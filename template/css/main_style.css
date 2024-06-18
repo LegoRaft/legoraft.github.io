@@ -18,7 +18,7 @@ header, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 14px;
+    font-size: 0.75rem;
     width: 60rem;
     margin: 2rem 0;
 }
@@ -30,7 +30,7 @@ h1 a {
 
 nav ul {
     display: flex;
-    gap: 8px;
+    gap: 0.5rem;
     list-style: none;
 }
 
@@ -60,7 +60,7 @@ footer a {
 
 .link-header {
     display: flex;
-    gap: 8px;
+    gap: 0.5rem;
     margin-bottom: 0.5rem;
 }
 
@@ -70,16 +70,34 @@ footer a {
 
 #date {
     align-self: flex-end;
-    margin: 2px 0.5rem;
+    margin: 0.1rem 0.5rem;
     color: #91918E;
 }
 
-@media (max-width: 660px) {
+@media (max-width: 600px) {
     body {
         margin: 0 1rem;
     }
     
-    .homepage, .post {
+    .link-container, header, footer {
+        width: 100%;
+    }
+    
+    header {
+        flex-direction: column;
+    }
+    
+    header h1 {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    body {
+        margin: 0 1rem;
+    }
+    
+    .link-container, header, footer {
         width: 100%;
     }
 }

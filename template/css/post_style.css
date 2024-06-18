@@ -29,5 +29,15 @@ article h {
 
 code {
     font-family: "Source Code Pro", Courier, monospace;
-    font-size: 14px;
+    font-size: 0.75rem;
+}
+
+@media (max-width: 1000px) {
+    body {
+        margin: 0 1rem;
+    }
+    
+    article {
+        width: 100%;
+    }
 }
