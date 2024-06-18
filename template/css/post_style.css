@@ -16,6 +16,7 @@ article a {
 }
 
 article a:hover {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     text-decoration: underline;
 }
 
@@ -30,7 +31,6 @@ article h {
 code {
     border-radius: 1rem;
     font-family: "Source Code Pro", Courier, monospace;
-    font-size: 0.75rem;
 }
 
 @media (max-width: 1000px) {
