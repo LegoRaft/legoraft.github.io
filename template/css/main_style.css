@@ -18,7 +18,7 @@ header, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 0.75rem;
+    font-size: 1rem;
     width: 60rem;
     margin: 2rem 0;
 }
