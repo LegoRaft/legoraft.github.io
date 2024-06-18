@@ -33,10 +33,6 @@ code {
 }
 
 @media (max-width: 1000px) {
-    body {
-        margin: 0 1rem;
-    }
-    
     article {
         width: 100%;
     }
