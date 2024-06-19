@@ -1,23 +1,23 @@
 .project-container {
     width: 52rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);;
+    gap: 1rem;
 }
 
 .project {
-    width: 16.5rem;
-    flex: 1 16rem auto;
     color: #F1F2EB;
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
-    background-color: rgba(241, 242, 235, 0.05);
+    background-color: rgba(241, 242, 235, 0.1);
     border-radius: 16px;
+    padding-bottom: 1rem;
 }
 
 .project .description {
-    padding: 0.5rem 1rem 1rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-bottom: auto;
 }
 
 .description p {
@@ -27,4 +27,18 @@
 .project img {
     max-width: 100%;
     border-radius: 8px;
+}
+
+.project a {
+    text-decoration: none;
+}
+
+#icon {
+    font-size: 1.5rem;
+    color: #2CB06E;
+    padding: 0 1rem;
+}
+
+#icon:hover {
+    color: #157947;
 }
