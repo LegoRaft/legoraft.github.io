@@ -12,6 +12,7 @@ body {
     background-color: #171717;
     color: #D3D3CF;
     font-family: Manrope, Helvetica, sans-serif;
+    min-height: 100vh;
 }
 
 header, footer {
@@ -20,7 +21,11 @@ header, footer {
     align-items: center;
     font-size: 1rem;
     width: 60rem;
-    margin: 2rem 0;
+    padding: 2rem 0;
+}
+
+footer {
+    margin-top: auto;
 }
 
 h1 a {
