@@ -22,6 +22,7 @@
 
 .description p {
     color: rgba(241, 242, 235, 0.75);
+    line-height: 1.5;
 }
 
 .project img {
@@ -51,5 +52,13 @@
 @media (max-width: 650px) {
     .project-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .project .description {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+    
+    .description p {
+        padding: 0.5rem 0;
     }
 }
