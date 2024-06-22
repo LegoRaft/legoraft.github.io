@@ -11,8 +11,9 @@
     flex-direction: column;
     text-decoration: none;
     background-color: rgba(241, 242, 235, 0.1);
-    border-radius: 16px;
+    border-radius: 1rem;
     padding-bottom: 1rem;
+    overflow: hidden;
 }
 
 .project .description {
@@ -27,7 +28,7 @@
 
 .project img {
     max-width: 100%;
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
 .project a {
