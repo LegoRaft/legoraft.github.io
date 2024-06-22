@@ -83,6 +83,12 @@ footer a {
     color: #91918E;
 }
 
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 #icon {
     width: 1.5rem;
     fill: #2CB06E;
