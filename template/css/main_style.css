@@ -83,6 +83,15 @@ footer a {
     color: #91918E;
 }
 
+#icon {
+    width: 1.5rem;
+    fill: #2CB06E;
+}
+
+#icon:hover {
+    fill: #157947;
+}
+
 @media (max-width: 600px) {
     body {
         margin: 0 1rem;
