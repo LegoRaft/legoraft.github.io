@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+    --primary-fg: #F7F7F7;
+    --secondary-fg: #CCCCCC;
+    --primary-bg: #121212;
+    --secondary-bg: #333333;
+    --tertiary-bg: #595959;
+    --primary-accent: #00E57E;
+    --secondary-accent: #00B262;
+}
 
 body {
     display: flex;
@@ -6,15 +17,15 @@ body {
 }
 
 article {
-    width: 80ch;
+    width: 54rem;
     justify-content: left;
-    font-size: 18px;
+    font-size: 16px;
     margin: 1rem 0;
-    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: Manrope, Arial, Helvetica, sans-serif;
 }
 
 article a {
-    color: #2CB06E;
+    color: var(--primary-accent);
     text-decoration: none;
 }
 
@@ -27,8 +38,18 @@ article p {
     line-height: 1.5;
 }
 
+article h1 {
+    font-size: 2rem;
+    color: var(--primary-fg);
+}
+
+article h2 {
+    font-size: 1.5rem;
+    color: var(--primary-fg);
+}
+
 code {
-    background-color: #222;
+    background-color: var(--secondary-bg);
     padding: 0.1rem 0.25rem;
     border-radius: 0.25rem;
     font-size: 1rem;
