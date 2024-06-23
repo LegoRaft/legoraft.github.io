@@ -8,10 +8,10 @@
 }
 
 .project-container {
-    max-width: 52rem;
+    max-width: 54rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .project {
@@ -30,8 +30,12 @@
     margin-bottom: auto;
 }
 
+.description h1 {
+    color: var(--primary-fg);
+    margin-bottom: 0.5rem;
+}
+
 .description p {
-    color: rgba(241, 242, 235, 0.75);
     line-height: 1.5;
 }
 
@@ -47,7 +51,7 @@
 .icons {
     display: flex;
     gap: 1rem;
-    padding: 0.5rem 1rem 0 1rem;
+    padding: 1rem 1rem 0 1rem;
 }
 
 @media (max-width: 650px) {

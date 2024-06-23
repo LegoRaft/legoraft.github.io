@@ -5,6 +5,7 @@
     --secondary-fg: #CCCCCC;
     --primary-bg: #121212;
     --secondary-bg: #333333;
+    --tertiary-bg: #595959;
     --primary-accent: #00E57E;
     --secondary-accent: #00B262;
 }
@@ -88,15 +89,16 @@ footer a {
     display: flex;
     gap: 0.5rem;
     padding: 0.5rem 0;
+    color: var(--primary-fg);
 }
 
 #tag {
-    color: #2CB06E;
+    color:  var(--primary-accent);
 }
 
 #date {
     margin: 0.1rem 0.5rem;
-    color: #91918E;
+    color: var(--tertiary-bg);
 }
 
 .social-icons {
@@ -107,11 +109,11 @@ footer a {
 
 #icon {
     width: 1.5rem;
-    fill: #2CB06E;
+    fill: var(--primary-accent);
 }
 
 #icon:hover {
-    fill: #157947;
+    fill: var(--secondary-accent);
 }
 
 @media (max-width: 600px) {
