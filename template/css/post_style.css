@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
-
-:root {
-    --primary-fg: #F7F7F7;
-    --secondary-fg: #CCCCCC;
-    --primary-bg: #121212;
-    --secondary-bg: #333333;
-    --tertiary-bg: #595959;
-    --primary-accent: #00E57E;
-    --secondary-accent: #00B262;
-}
+@import "colors.css";
 
 body {
     display: flex;
