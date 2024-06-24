@@ -43,79 +43,79 @@
 
 /* Import for the Source Sans Pro font (regular) */
 @font-face {
-  font-family: Source Sans Pro;
+  font-family: "Source Sans Pro";
   src: url(../fonts/source-sans-pro/SourceSansPro-ExtraLight.otf);
   font-weight: 200;
 }
 
 @font-face {
-  font-family: Source Sans Pro;
+  font-family: "Source Sans Pro";
   src: url(../fonts/source-sans-pro/SourceSansPro-Light.otf);
   font-weight: 300;
 }
 
 @font-face {
-  font-family: Source Sans Pro;
+  font-family: "Source Sans Pro";
   src: url(../fonts/source-sans-pro/SourceSansPro-Regular.otf);
   font-weight: normal;
 }
 
 @font-face {
-  font-family: Source Sans Pro;
+  font-family: "Source Sans Pro";
   src: url(../fonts/source-sans-pro/SourceSansPro-Semibold.otf);
   font-weight: 500;
 }
 
 @font-face {
-  font-family: Source Sans Pro;
+  font-family: "Source Sans Pro";
   src: url(../fonts/source-sans-pro/SourceSansPro-Bold.otf);
   font-weight: 600;
 }
 
 @font-face {
-  font-family: Source Sans Pro;
+  font-family: "Source Sans Pro";
   src: url(../fonts/source-sans-pro/SourceSansPro-Black.otf);
   font-weight: 700;
 }
 
 /* Import for the Source Sans Pro font (italic) */
 @font-face {
-  font-family: Source Sans Pro;
+  font-family: "Source Sans Pro";
   src: url(../fonts/source-sans-pro/SourceSansPro-ExtraLightIt.otf);
   font-weight: 200;
   font-style: italic;
 }
 
 @font-face {
-  font-family: Source Sans Pro;
+  font-family: "Source Sans Pro";
   src: url(../fonts/source-sans-pro/SourceSansPro-LightIt.otf);
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
-  font-family: Source Sans Pro;
+  font-family: "Source Sans Pro";
   src: url(../fonts/source-sans-pro/SourceSansPro-It.otf);
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
-  font-family: Source Sans Pro;
+  font-family: "Source Sans Pro";
   src: url(../fonts/source-sans-pro/SourceSansPro-SemiboldIt.otf);
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
-  font-family: Source Sans Pro;
+  font-family: "Source Sans Pro";
   src: url(../fonts/source-sans-pro/SourceSansPro-BoldIt.otf);
   font-weight: 600;
   font-style: italic;
 }
 
 @font-face {
-  font-family: Source Sans Pro;
+  font-family: "Source Sans Pro";
   src: url(../fonts/source-sans-pro/SourceSansPro-BlackIt.otf);
   font-weight: 700;
   font-style: italic;
@@ -123,64 +123,64 @@
 
 /* Import for the Source Code Pro font (regular) */
 @font-face {
-  font-family: Source Code Pro;
+  font-family: "Source Code Pro";
   src: url(../fonts/source-code-pro/SourceCodePro-ExtraLight.otf);
   font-weight: 200;
 }
 
 @font-face {
-  font-family: Source Code Pro;
+  font-family: "Source Code Pro";
   src: url(../fonts/source-code-pro/SourceCodePro-Light.otf);
   font-weight: 300;
 }
 
 @font-face {
-  font-family: Source Code Pro;
+  font-family: "Source Code Pro";
   src: url(../fonts/source-code-pro/SourceCodePro-Regular.otf);
   font-weight: normal;
 }
 
 @font-face {
-  font-family: Source Code Pro;
+  font-family: "Source Code Pro";
   src: url(../fonts/source-code-pro/SourceCodePro-Medium.otf);
   font-weight: 500;
 }
 
 @font-face {
-  font-family: Source Code Pro;
+  font-family: "Source Code Pro";
   src: url(../fonts/source-code-pro/SourceCodePro-Semibold.otf);
   font-weight: 600;
 }
 
 @font-face {
-  font-family: Source Code Pro;
+  font-family: "Source Code Pro";
   src: url(../fonts/source-code-pro/SourceCodePro-Bold.otf);
   font-weight: 700;
 }
 
 @font-face {
-  font-family: Source Code Pro;
+  font-family: "Source Code Pro";
   src: url(../fonts/source-code-pro/SourceCodePro-Black.otf);
   font-weight: 800;
 }
 
 /* Import for the Source Sans Pro font (italic) */
 @font-face {
-  font-family: Source Code Pro;
+  font-family: "Source Code Pro";
   src: url(../fonts/source-code-pro/SourceCodePro-ExtraLightIt.otf);
   font-weight: 200;
   font-style: italic;
 }
 
 @font-face {
-  font-family: Source Code Pro;
+  font-family: "Source Code Pro";
   src: url(../fonts/source-code-pro/SourceCodePro-LightIt.otf);
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
-  font-family: Source Code Pro;
+  font-family: "Source Code Pro";
   src: url(../fonts/source-code-pro/SourceCodePro-It.otf);
   font-weight: normal;
   font-style: italic;

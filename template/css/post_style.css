@@ -30,13 +30,13 @@ article p {
 article h1 {
     font-size: 2rem;
     color: var(--primary-fg);
-    font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
 
 article h2 {
     font-size: 1.5rem;
     color: var(--primary-fg);
-    font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
 
 code {
