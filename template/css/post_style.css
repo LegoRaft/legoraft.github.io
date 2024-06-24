@@ -44,11 +44,11 @@ code {
     padding: 0.1rem 0.25rem;
     border-radius: 0.25rem;
     font-size: 1rem;
+    font-family: "Source Code Pro", Courier, monospace;
 }
 
 pre code {
     border-radius: 1rem;
-    font-family: "Source Code Pro", Courier, monospace;
 }
 
 @media (max-width: 1000px) {
