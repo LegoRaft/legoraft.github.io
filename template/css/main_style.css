@@ -105,7 +105,12 @@ footer a {
     fill: var(--primary-accent);
 }
 
-#icon:hover {
+#footer-icon {
+    width: 2rem;
+    fill: var(--primary-accent);
+}
+
+#icon:hover, #footer-icon:hover {
     fill: var(--secondary-accent);
 }
 
