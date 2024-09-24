@@ -22,10 +22,9 @@ title: Legoraft
 email: legoraft@legoraft.com
 description: My personal blog
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://legoraft.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username:  legoraft
-
+github_username: legoraft
 # Build settings
 theme: minima
 plugins:
