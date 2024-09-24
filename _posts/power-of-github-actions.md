@@ -1,7 +1,7 @@
 ---
-title: The power of github actions
-date: 2024-06-17
-description: I've recently started using Github actions a lot more thanks to my new project, stagnant. After messing around with it a bit. I got a full CI/CD pipeline.
+layout: post
+title: "The power of github actions"
+categories: misc
 ---
 
 I've recently started using Github actions a lot more due to my new ongoing project called [stagnant](https://github.com/legoraft/stagnant). This static site generator allows you to create a statically generated blog site (mainly to use with github pages). I wanted to create a project in rust for a long time to learn a bit more about the language. The best way to do that is by building something you'd actually use, so you'll work on it.
