@@ -1,2 +1,3 @@
 # legoraft.github.io
-My personal blog
+
+My personal blog. I run this blog (hopefully) using jekyll.
