@@ -1,0 +1,13 @@
+.footer-col {
+  margin-bottom: $spacing-unit * .5;
+}
+
+.site-footer {
+  border-top: none;
+  padding: $spacing-unit 0;
+}
+
+footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
