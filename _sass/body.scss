@@ -12,6 +12,7 @@ h1.posttitle {
 
 @media (max-width: 32rem) {
     .content, article {
+        max-width: 100%;
         margin: 0.5rem;
     }
 }
