@@ -21,7 +21,8 @@ a.navitem {
     color: inherit;
 
     &:hover {
-        text-decoration: underline;
+        color: $unfocused;
+        text-decoration: none;
     }
 }
 
