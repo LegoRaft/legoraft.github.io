@@ -1,0 +1,10 @@
+<ul>
+  {% for post in site.posts %}
+  <li class="postlist">
+    <a class="postlink">
+      <p id="date">{{ post.date | date: "%Y-%m-%d }}</p>
+      <p id="title">{{ post.title }}</p>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

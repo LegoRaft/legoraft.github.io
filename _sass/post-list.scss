@@ -1,0 +1,20 @@
+@import "variables";
+
+li.postlist {
+    a.postlink {
+        display: flex;
+        text-decoration: none;
+        
+        p#date {
+            color: $unfocused;
+        }
+        
+        p#title {
+            color: $foreground;
+            
+            *:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
