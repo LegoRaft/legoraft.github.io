@@ -19,7 +19,8 @@ pre.highlight {
     padding: 1.5rem;
     background-color: #f0f1f3;
     border-radius: 1rem;
-    overflow: hidden;
+    overflow: scroll;
+    scrollbar-width: none;
 
     code {
         background-color: inherit;
