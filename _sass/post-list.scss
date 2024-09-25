@@ -1,6 +1,10 @@
 @import "variables";
 
-li.postlist {
+ul.postlist {
+    list-style: none;
+}
+
+li {
     a.postlink {
         display: flex;
         text-decoration: none;
