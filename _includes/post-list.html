@@ -1,7 +1,7 @@
 <ul class="postlist">
   {% for post in site.posts %}
   <li>
-    <a class="postlink">
+    <a href="{{ post.url }}" class="postlink">
       <p id="date">{{ post.date | date: "%Y-%m-%d" }}</p>
       <p id="title">{{ post.title }}</p>
     </a>
