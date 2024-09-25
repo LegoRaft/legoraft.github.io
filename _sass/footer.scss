@@ -25,6 +25,6 @@ a.socials, a.feed {
     }
     
     &:hover {
-        color: rgba($foreground, 0.75);
+        color: $unfocused;
     }
 }
