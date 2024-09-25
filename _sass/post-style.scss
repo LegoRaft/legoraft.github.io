@@ -14,3 +14,9 @@ p#post-date {
 p {
     margin: 1rem 0;
 }
+
+pre.highlight {
+    padding: 1.5rem;
+    background-color: $unfocused;
+    border-radius: 1rem;
+}
