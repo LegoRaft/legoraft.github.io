@@ -15,8 +15,8 @@ p {
     margin: 1rem 0;
 }
 
-pre.highlight {
+pre.highlight, pre.highlight code {
     padding: 1.5rem;
-    background-color: $unfocused;
+    background-color: #f0f1f3;
     border-radius: 1rem;
 }
