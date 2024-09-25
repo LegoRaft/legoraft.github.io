@@ -10,9 +10,12 @@ h1.posttitle {
     margin: 1rem 0;
 }
 
-@media (max-width: 32rem) {
+@media (max-width: 34rem) {
+    body {
+        margin: 0 0.5rem;
+    }
+    
     .content, article {
         width: 100%;
-        margin: 0.5rem;
     }
 }
