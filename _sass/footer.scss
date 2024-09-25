@@ -1,6 +1,6 @@
 @import "variables";
 
-header {
+footer {
     height: 64px;
     max-width: 80%;
     display: flex;
@@ -9,4 +9,22 @@ header {
     padding: 0 64px;
     margin: 1rem auto 0 auto;
     color: $foreground;
+}
+
+ul.socials {
+    list-style: none;
+}
+
+a.socials, a.feed {
+    color: inherit;
+    display: flex;
+    gap: 0.5rem;
+    
+    svg {
+        width: 1rem;
+    }
+    
+    &:hover {
+        color: rgba($foreground, 0.75);
+    }
 }
