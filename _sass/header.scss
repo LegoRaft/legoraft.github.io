@@ -1,0 +1,20 @@
+header {
+    height: 64px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 0;
+}
+
+nav {
+    display: flex;
+    gap: 0.5rem;
+}
+
+a.navitem {
+    text-decoration: none;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}
