@@ -1,0 +1,10 @@
+@import "variables";
+
+h1#post-title {
+    margin: auto;
+}
+
+p#post-date {
+    margin: auto;
+    color: $unfocused;
+}

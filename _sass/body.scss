@@ -1,6 +1,6 @@
 @import "variables";
 
-.content {
+.content, article {
     width: 40rem;
     margin: 1rem auto;
 }
@@ -11,7 +11,7 @@ h1.posttitle {
 }
 
 @media (max-width: 32rem) {
-    .content {
+    .content, article {
         margin: 0.5rem;
     }
 }
