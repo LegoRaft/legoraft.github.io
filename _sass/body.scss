@@ -10,6 +10,19 @@ h1.posttitle {
     margin: 1rem 0;
 }
 
+p {
+    margin: 1rem 0;
+}
+
+a {
+    color: $accent;
+    text-decoration: none;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
 @media (max-width: 34rem) {
     body {
         margin: 0 0.5rem;

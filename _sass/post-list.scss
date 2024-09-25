@@ -11,10 +11,12 @@ a.postlink {
         
     p#date {
         color: $unfocused;
+        margin: 0;
     }
-        
+
     p#title {
         color: $foreground;
+        margin: 0;
             
         &:hover {
             text-decoration: underline;
