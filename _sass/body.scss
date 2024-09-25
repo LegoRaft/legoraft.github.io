@@ -9,3 +9,9 @@ h1.posttitle {
     font-size: 1.5rem;
     margin: 1rem 0;
 }
+
+@media (max-width: 32rem) {
+    .content {
+        margin: 0.5rem;
+    }
+}
