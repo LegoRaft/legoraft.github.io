@@ -4,7 +4,7 @@ title: "The power of github actions"
 categories: misc
 ---
 
-I've recently started using Github actions a lot more due to my new ongoing project called [stagnant](https://github.com/legoraft/stagnant). This static site generator allows you to create a statically generated blog site (mainly to use with github pages). I wanted to create a project in rust for a long time to learn a bit more about the language. The best way to do that is by building something you'd actually use, so you'll work on it.
+I've recently started using Github actions a lot more due to my new ongoing project called [stagnant](https://github.com/legoraft/stagnant). <!--more--> This static site generator allows you to create a statically generated blog site (mainly to use with github pages). I wanted to create a project in rust for a long time to learn a bit more about the language. The best way to do that is by building something you'd actually use, so you'll work on it.
 
 Now on to Github actions. When I started on this project, I just wanted to be able to upload the built site (which resides in a `site` directory) to a github pages site and be able to browse the site from github pages. A lot of these static site generators use github actions for this and I chose to take a look at [mdbook](https://github.com/rust-lang/mdBook), which had quite a clear workflow to do this. After some fiddling around with this (it took 14 commits to get it working) I realised that I was using a MacOS build on a workflow that ran on a Linux container.
 
