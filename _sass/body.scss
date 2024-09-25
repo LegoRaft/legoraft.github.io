@@ -1,0 +1,17 @@
+.content {
+    width: 40rem;
+    margin: 1rem auto;
+}
+
+h1.posttitle {
+    font-size: 1.5rem;
+}
+
+a.postlink {
+    color: inherit;
+    text-decoration: none;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}
