@@ -1,12 +1,5 @@
 @import "variables";
 
-* {
-    margin: 0;
-    padding: 0;
-    background-color: $background;
-    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
-
 header {
     height: 64px;
     max-width: 100%;
