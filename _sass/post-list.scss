@@ -4,21 +4,19 @@ ul.postlist {
     list-style: none;
 }
 
-li {
-    a.postlink {
-        display: flex;
-        text-decoration: none;
+a.postlink {
+    display: flex;
+    text-decoration: none;
         
-        p#date {
-            color: $unfocused;
-        }
+    p#date {
+        color: $unfocused;
+    }
         
-        p#title {
-            color: $foreground;
+    p#title {
+        color: $foreground;
             
-            *:hover {
-                text-decoration: underline;
-            }
+        *:hover {
+            text-decoration: underline;
         }
     }
 }
