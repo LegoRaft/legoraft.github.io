@@ -28,3 +28,9 @@ a.socials, a.feed {
         color: $unfocused;
     }
 }
+
+@media (max-width: 34rem) {
+    footer {
+        width: 100%;
+    }
+}
