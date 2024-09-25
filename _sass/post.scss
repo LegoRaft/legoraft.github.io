@@ -1,10 +1,14 @@
 @import "variables";
 
 h1#post-title {
-    margin: auto;
+    margin: 0.5rem auto;
 }
 
 p#post-date {
-    margin: auto;
+    margin: 1rem auto;
     color: $unfocused;
+}
+
+p {
+    margin: 1rem 0;
 }
