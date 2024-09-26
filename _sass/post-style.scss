@@ -17,7 +17,7 @@ p {
 
 pre.highlight {
     padding: 1.5rem;
-    background-color: #f0f1f3;
+    background-color: $background1;
     border-radius: 1rem;
     overflow: scroll;
     scrollbar-width: none;
@@ -33,6 +33,6 @@ pre.highlight {
 
 code {
     padding: 0.25rem;
-    background-color: $unfocused;
+    background-color: $background1;
     border-radius: 0.5rem;
 }
