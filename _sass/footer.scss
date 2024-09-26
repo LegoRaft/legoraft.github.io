@@ -15,17 +15,17 @@ ul.socials {
 }
 
 a.socials, a.feed {
-    color: $foreground;
+    color: inherit;
     display: flex;
     gap: 0.5rem;
-    
-    svg {
-        width: 1rem;
-    }
     
     &:hover {
         color: $unfocused;
         text-decoration: none;
+    }
+    
+    svg {
+        width: 1rem;
     }
 }
 
