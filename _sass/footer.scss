@@ -16,7 +16,7 @@ ul.socials {
 }
 
 a.socials, a.feed {
-    color: inherit;
+    color: $foreground;
     display: flex;
     gap: 0.5rem;
     
