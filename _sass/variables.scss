@@ -1,12 +1,13 @@
 $background: #0D1321;
 $foreground: #FDFFFC;
-$unfocused: rgba($foreground, 0.75);
+$unfocused: rgba($foreground, 0.5);
 $accent: #9650D0;
 
 * {
     margin: 0;
     padding: 0;
     background-color: $background;
+    color: $foreground;
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
