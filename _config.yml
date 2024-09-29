@@ -35,9 +35,6 @@ include:            [ "robots.txt" ]
 exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
 
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
   - jekyll-remote-theme
 
 remote_theme: heiswayi/the-plain
