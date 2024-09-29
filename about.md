@@ -10,5 +10,5 @@ I like being able to write about things, but that doesn't mean the writing is an
 
 **Social**
 - [Github](https://github.com/legoraft)
-- <a href="mastodon.social/@legoraft rel="me">Mastodon</a>
+- <a href="mastodon.social/@legoraft" rel="me">Mastodon</a>
 - [RSS](https://legoraft.com/feed.xml)
