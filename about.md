@@ -3,8 +3,12 @@ layout: page
 title: About
 ---
 
-# About
+Hi! I'm legoraft, someone who loves messing around with computers and tinkering with all sorts of stuff. I use this blog to write about things that are on my mind and stuff I think is cool. I mostly write about Linux, Minecraft and some programming if I feel like it.
 
-Hi! I'm legoraft, a random guy that loves to mess around with computers and in games. I use this blog to talk about things that are on my mind and projects I'm working on. I love to mess around in linux and I play a lot of Minecraft (and sometimes some other games).
+I like being able to write about things, but that doesn't mean the writing is any good. Just enjoy my ramblings and feel free to let me know if you have an opinion on something
 
-If you'd like to take a look at my projects, check out my [github](https://github.com/legoraft). If you like to use an rss reader to follow this blog, feel free to do so. You can download the rss feed [here](https://legoraft.com/feed.xml).
+
+**Social**
+- [Github](https://github.com/legoraft)
+- <a href="mastodon.social/@legoraft rel="me">Mastodon</a>
+- [RSS](https://legoraft.com/feed.xml)
