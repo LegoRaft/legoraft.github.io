@@ -1,7 +1,6 @@
 ---
-layout: post
 title: "The power of github actions"
-permalink: /posts/power-of-github-actions/
+updated: 2024-05-17 20:40
 ---
 
 I've recently started using Github actions a lot more due to my new ongoing project called [stagnant](https://github.com/legoraft/stagnant). <!--more--> This static site generator allows you to create a statically generated blog site (mainly to use with github pages). I wanted to create a project in rust for a long time to learn a bit more about the language. The best way to do that is by building something you'd actually use, so you'll work on it.
