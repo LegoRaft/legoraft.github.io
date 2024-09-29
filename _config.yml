@@ -1,7 +1,7 @@
 title:              "Legoraft"
 description:        "My blog, where I like to talk about gaming, programming and linux."
 author_name:        "legoraft"
-logo_url:           https://api.github.com/users/legoraft
+logo_url:           https://avatars.githubusercontent.com/u/50689727?v=4
 
 url:                https://legoraft.com # main url
 baseurl:            /
