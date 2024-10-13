@@ -5,7 +5,7 @@ logo_url:           https://avatars.githubusercontent.com/u/50689727?v=4
 
 url:                https://legoraft.com # main url
 baseurl:            /
-permalink:          /:title # Post permalink
+permalink:          /post/:title # Post permalink
 timezone:           Europe/Amsterdam # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
 social_share_previews: true
