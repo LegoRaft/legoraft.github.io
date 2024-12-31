@@ -1,6 +1,6 @@
 ---
-title: "Make you files free (as in freedom)"
-updated: 2024-10-13 18:10:00
+title: "Make your files free (as in freedom)"
+updated: 2024-12-31 18:34:00
 ---
 
 Nowadays, a lot of file formats we use are either proprietary or we don't even know what a backend uses. Think about your notes, school assignments, presentations, Excel sheets etc. I'm mostly talking about notes here, because that's the biggest thing I've changed, but there are a lot of proprietary file formats in our life nowadays. I've tried to change a few things in my life to move away from these formats.
