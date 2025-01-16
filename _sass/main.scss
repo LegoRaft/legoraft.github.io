@@ -170,8 +170,6 @@ sup {
   position: relative;
   top: -0.5em;
   margin-left: 1px;
-  background-color: none;
-  color: #0087be;
 }
 time {
   color: #555;
@@ -257,8 +255,8 @@ article {
   }
   .footnote {
     border: 0;
-    background-color: #0087BE;
-    color: #fff;
+    background-color: none;
+    color: #0087BE;
     padding-left: 2px;
     padding-right: 2px;
   }
